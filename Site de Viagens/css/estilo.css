@@ -1,0 +1,85 @@
+* {margin: 0; padding: 0;}
+
+.header { height: 600px; background-size: cover; background-position: center; background-attachment: fixed; text-align: center;
+color: white;}
+
+/*Usamos o background-size: cover; para podermos colocar letras em cima da imagem do background*/
+/*Usamos o background-position: center; para manteer a imagem fixa no centro da tela da pagina*/
+/*Usamos o background-attachment: fixed; para manter a imagem no lugar enquanto rolamos a pagina*/
+
+.header img {height: 170px; float: left;}
+
+.login-btn { width: 100px; padding: 8px 0; outline: none; border: 2px solid white; border-radius: 50px; 
+	background: transparent; color:white; font-size: 1.2em; float: right; margin-top: 50px;}
+
+/*Para fazer um botao ficar transparente aumente o tamanho da border e faça background: transparent*/
+
+.header h1 {padding-top: 230px; padding-bottom: 0; font-size: 55px; }
+
+.header p {margin: 18px 0; font-size: 2em;}
+
+.input-group { width: 100%; max-width: 500px; border-radius: 30px; margin: auto; padding: 2px;  }
+
+.form-control { border: 0; border-radius: 30px; margin: 2px; box-shadow: none;  }
+
+.input-group-text { width: 100px; background-image: linear-gradient( blue, lightgreen); border: 0; color: white; padding: 0 25px;
+	border-radius: 30px; box-shadow: none;  }
+
+.features { padding: 100px 0;  }
+
+h1 { text-align: center; padding-bottom: 30px; }
+
+.feature-img img { width: 100%; height: 200px; }
+
+.preco { width: 60px; height: 55px; background: #ff5722; color: white; font-weight: 600; border-radius: 50%; padding: 10px;
+box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18); position: absolute; left: 20px; bottom: -30px;}
+
+.feature-img { position: relative; }
+
+.pontuacao { padding: 3px; float: right; background: white; bottom: -1px; right: 0; position: absolute; }
+
+.features .fa { font-size: 15px; color: #ff5722; }
+
+.detalhes { padding: 20px; text-align: justify; } 
+
+.detalhes h4 { margin-top: 20px; font-weight: 600;}
+
+.detalhes .fa {margin-right: 4px;}
+
+.feature-box {box-shadow: 0 0 10px 1px rgba(37,73,124,0.18); margin-bottom: 30px;}
+
+.galeria { padding: 100px 0; background: #efefef; }
+
+.galeria-box img { width: 100%; height: 200px; border-radius: 10px; cursor: pointer; transition: 1s;}
+
+.galeria-box img:hover {transform: scale(1.1);}
+
+.galeria-box h4 { display: block; font-size: 20px; color: white; text-shadow: -2px 2px 2px #000; font-weight: 600; position: absolute; 
+	top: 50%; left: 50%; transform: translate(-50%, -50%);}
+
+.galeria-box {position: relative; margin-bottom: 30px;}
+
+.banner { height: 600px; background-position: center; background-size: cover; 
+background-attachment: fixed; padding-top: 14%; }
+
+.banner-alto { padding: 70px 0; background: rgba(0,0,0,0.7); text-align: center; color: white; }
+
+.cadastro-btn { width: 150px; padding: 8px 0; outline: none; border: 2px solid white; border-radius: 50px; 
+	background: transparent; color:white; font-size: 1.2em; margin-top: 20px;}
+
+.feedback { padding: 100px 0;  }
+
+.feedbackusuario { height: 200px; text-align: center; box-shadow: 0 0 10px 0 rgba(0,0,100,0.2); padding-bottom: 50px; }
+
+.feedbackusuario p { padding: 50px 10px 10px 10px; }
+
+.feedbackusuario::before { content:'\201d'; display: block; position: absolute; font-size: 100px; font-family: sans-serif;
+left: 44%; top: -20px; }
+
+.rodape { padding: 100px 20px; background-image: linear-gradient(blue, lightgreen); color: white;}
+
+.rodapelogo { width: 200px; margin-top: 15px; margin-bottom: 15px; }
+
+.rodape h4 { text-align: left; margin-top: 15px; margin-bottom: 25px; }
+
+.rodape p { font-size: 12px; text-align: justify; padding-right: 35px;  }
