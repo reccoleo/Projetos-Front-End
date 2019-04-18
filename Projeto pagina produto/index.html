@@ -1,0 +1,135 @@
+.<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+	<script src="Bootstrap/js/bootstrap.min.js"></script>
+	<script src="Bootstrap/js/jquery.js"></script>
+	<title>Site de compras</title>
+</head>
+<body>
+
+
+<div class="navbar navbar-default menu">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="index.html">Loja 10</a>
+		<button class="navbar-toggle" type="button" data-target=".navbar-collapse" data-toggle="collapse">
+			<span class="glyphicon glyphicon-align-justify"></span>
+		</button>
+	</div>
+	<ul class="nav navbar-nav navbar-static-top collapse navbar-collapse menu-opt">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Ajuda</a></li>
+		<li><a href="#">Produtos</a></li>
+		<li><a href="#">Contato</a></li>
+	</ul>
+</div>
+
+<div class="jumbotron">
+	<div class="container">
+	<h1>Loja 10</h1>
+	<p>Bem vindo a Loja 10, o site com as maiores promoções do mercado!</p>		
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4">
+<div class="panel panel-success">
+	<div class="panel-heading">
+		<h2 class="panel-title">Sua compra</h2>
+	</div>
+		<div class="panel-body">
+			<img class="img-thumbnail img-responsive" src="img/camiseta.jpg">
+			<dl>
+				<dt>Produto</dt>
+				<dd>Camiseta Brendan</dd>
+
+				<dt>Cor</dt>
+				<dd>Verde</dd>
+
+				<dt>Tamanho</dt>
+				<dd>M</dd>
+
+				<dt>Preço</dt>
+				<dd>129.99</dd>
+			</dl>
+			</div>
+		</div>
+	</div>
+
+<form class="col-md-8" action="destino.html" method="post">
+
+	<div class="row">
+  	<fieldset class="col-md-6">
+  		<legend>Dados Pessoais</legend>
+
+  	<div class="form-group">
+	<label for="nome">Nome</label>
+	<input class="form-control" type="text" name="nome" id="nome" autofocus required placeholder="Digite seu Nome aqui">
+	</div>
+
+  	<div class="form-group">
+	<label for="tele">Telefone</label>
+	<input class="form-control" type="tel" name="tele" id="tele" required placeholder="Digite seu Telefone">
+	</div>
+
+  	<div class="form-group">
+	<label for="eml">Email</label>
+	<input class="form-control" type="email" name="eml" id="eml" required placeholder="exemplo@exemplo.com">
+	</div>
+
+  	<div class="form-group">
+	<label for="senha">Senha</label>
+	<input class="form-control" type="password" name="senha" id="senha" required>
+	</div>
+   
+    <div class="checkbox">
+    	<label>
+			<input type="checkbox" nome="carta" id="carta" checked>Gostaria de receber promoções da Loja 10 via Email.
+    	</label>
+</div>
+</fieldset>
+
+  	<fieldset class="col-md-6">
+  		<legend>Cartão de Crédito</legend>
+
+  	<div class="form-group">
+		<label for="numero-cartao">Número - CVV</label>
+		<input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+	</div>
+
+	<div class="form-group">
+		<label for="bandeira-cartao">Bandeira</label>
+		<select name="bandeira-cartao" id="bandeira-cartao" class="form-control">
+		<option value="master">MasterCard</option>
+		<option value="visa">VISA</option>
+		<option value="amex">American Express</option>
+		</select>
+	</div>
+
+	<div class="form-group">
+		<label for="validade-cartao">Validade</label>
+		<input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
+	</div>
+</div>
+
+
+  <input type="submit" class="btn btn-primary btn-lg pull-right" name="enviar" id="enviar" value="Enviar">
+
+  <input type="reset" class="btn btn-danger btn-lg pull-right" name="limpar" id="limpar" value="Resetar">
+
+</fieldset>
+
+  </form>
+
+	</div>
+</div>
+
+
+
+</body>
+</html>

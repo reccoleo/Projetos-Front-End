@@ -1,0 +1,9 @@
+* {margin: 0 auto;}
+
+.form-group:invalid{outline: 2px solid red;}
+
+.menu {margin-top: -22px;}
+
+.menu-opt:hover{ cursor:pointer; }
+
+.jumbotron {margin-top: -20px;}

@@ -1,0 +1,92 @@
+
+* { padding: 0; margin: 0; font-family: sans-serif;}
+
+.menu-bar {background-image: linear-gradient(to right, red, darkviolet); }
+
+.nav-link { font-size: 1.3em; font-color: #fff; margin: 2px; } 
+
+.logotipo {height: 60px;}
+
+.logotipo img {height: 120px; margin-top: -35px;}
+
+.navbar-nav {text-align: right;}
+
+.menu-bar { padding-right: 0; outline: none; border: none; }
+
+.banner {height: 500px; background-size: cover;
+	background-position: center; color: black; color: black;}
+
+.banner h1 { padding-top: 170px; font-size: 50px; letter-spacing: 6px; font-weight: 600; text-shadow: 0 0 30px rgba(0,0,0,0,0.5);}
+
+.banner p {font-size: 20px;}
+
+.search-job { padding: 30px 0; margin: -50px 6% 50px; background-image: linear-gradient(to right, red, darkviolet); }
+
+.search-job .form-control { max-width: 250px; display: inline-flex; margin: 10px 5px; border-radius: 5px; box-shadow: none; border: none;}
+
+.search-job .btn-primary { display: inline-flex; margin: 5px; padding: 5px 20px; }
+
+/************Recrutadores************/
+
+#recrutadores { padding-top: 50px; padding-bottom: 100px; }
+
+#recrutadores h3 {text-align: center; padding-bottom: 40px;}
+
+h3::before { content:''; background-image: linear-gradient(to right, red, darkviolet); width: 50px; height: 30px; position: absolute;
+	z-index:-10; margin-top: -15px; border-top-left-radius: 70px; border-bottom-right-radius: 90px;}
+
+#recrutadores img { max-width: 100px; margin: 10px 20px; }
+
+/********** Vagas de Emprego ****************************/
+
+#jobs { background-color: #f8f8f8; padding: 50px 0;  }
+
+.compania { box-shadow: 0 2px 70px 0 rgba(110,130,208, .18); border-radius: 5px; margin-bottom: 20px;  }
+
+.atualizacao {background: #fff; padding: 10px 20px; border-radius: 5px;}
+
+.atualizacao small { background: #efefef; padding: 1px 5px; margin: 0 5px;}
+
+.atualizacao p {margin-bottom: 0 !important; }
+
+.atualizacao a { text-decoration: none !important; color: #b6b6b6; float: right; }
+
+.botao { height: 40px;  background-image: linear-gradient(to right, red, darkviolet); padding: 7px; border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px; }
+
+.botao .btn-primary { padding: 0 30px; float: right; border-radius: 0; box-shadow: none !important; 
+	background: transparent; border: 1px solid white;}
+
+.pagina li { height:25px; width: 25px; list-style: none; display: inline-block; cursor: pointer;}
+
+.pagina i:hover, .active { color: white; background: red; border-radius: 56px; }
+
+.left-arrow {  color: white; background: darkviolet; border-radius: 56px; }
+
+.right-arrow {  color: white; background: darkviolet; border-radius: 56px; }
+
+/********** Status ********************************/
+
+#status { padding: 100px 0;  }
+
+#status h3 { margin-bottom: 30px;  }
+
+.status { padding: 30px; border-radius: 10px; margin: 20px 0; box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18); }
+
+#banner-app { background-image: linear-gradient(to right, red, darkviolet); padding: 50px 0; }
+
+#banner-app h2 { margin-top: 20px; color: white;  }
+
+#banner-app img { width: 150px; margin: 50px 0; }
+
+#rodape img { max-width: 100px; margin: 10px 20px;}
+
+/*************************rodapé*************************************/
+
+#rodape { background: #f8f8f8; padding: 20px 10px 8px; }
+
+.imagem-rodape { max-width: 100px; margin: 10px 20px; }
+
+#rodape p { color: #333; font-size: 16px; }
+
+#rodape a img { width: 50px;  }
