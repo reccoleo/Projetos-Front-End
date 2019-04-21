@@ -1,0 +1,26 @@
+ 
+body { background: #ccc; }
+
+#header a:hover { color: white; }
+
+#sobre { margin-top: -200px;}
+
+#sobre .fa { color: white; }
+
+#sobre span { padding: 10px 20px 10px 20px; }
+
+#sobre hr { border-width: 3px; margin-top: 6px; }
+
+#habilidade span { padding: 10px 20px 10px 20px; }
+
+#habilidade hr { border-width: 3px; margin-top: 6px; }
+
+#experiencia span { padding: 10px 20px 10px 20px; }
+
+#experiencia hr { border-width: 3px; margin-top: 6px; }
+
+#experiencia .card { border-top: 3px solid lightgreen; }
+
+#contato span { padding: 10px 20px 10px 20px; }
+
+#contato hr { border-width: 3px; margin-top: 6px; }
